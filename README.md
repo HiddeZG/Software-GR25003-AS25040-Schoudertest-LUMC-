@@ -1,4 +1,4 @@
-# Software-GR25003-AS25040-Schoudertest-LUMC-
+# Software-GR25003-AS25040-Schoudertest-LUMC
 This software has been developed to measure co-contraction indices (CCI's) of the anterior deltoid (AD) and posterior deltoid (PD) using surface EMG (sEMG) data during isometric contractions in forward flexion (FF) and backward flexion (BF) with varying exeterd torque (ET) and angles of abduction (AOA). This software has specifically been developed to measure co-contraction in Obstetric Brachial Plexus Injury (OBPI) patients. 
 
 This GitHub builds upon existing software: 
@@ -25,6 +25,7 @@ syndrome rehabilitation. TU Delft / LUMC._
 5. Store data in a structured way by running Data Storage.py
 
 **Citation**
+
 If you use or build upon this code, please cite the earlier mentioned and:
 _Zalbouti, N., Zuidgeest, H., Vruggink, B., Overdevest, J. (2026). Developing a sEMG Measurement Setup for Deltoid Co-Contraction in Obstetric Brachial Plexus Injury. TU Delft / LUMC_
 
