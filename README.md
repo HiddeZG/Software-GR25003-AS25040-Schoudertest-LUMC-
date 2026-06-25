@@ -15,17 +15,17 @@ syndrome rehabilitation. TU Delft / LUMC._
 - Real-time validation of sEMG signals
 - Acquisition and processing of torque data
 - Live feedback of ET measurements
-- Shape-based CCI calculations 
+- Shape-based CCI calculations
+- Data is saved in participant specific maps that are created by running the scripts
 
 **Instructions**
 1. Run the _validation.py_ to validate the acquired sEMG signals
-2. Aqcuire sEMG and ET data during isometric contractions by running _100% MVT.py_
-3. Run the _30% MVT.py_ file to provide real-time ET feedback, store sEMG data and simultaneously calculate CCI's with the function from _CCI.py_
+2. Aqcuire sEMG and ET data during isometric contractions by running _100% MVT.py_ per contraction 
+3. Run the 30% MVT.py file to provide real-time ET feedback, store sEMG data and simultaneously calculate CCI's with the shape-based CCI formula described in CCI.py
 4. Calculate the CCI's of 100% MVT ET measurements afterwards by running _CCI 100% MVT.py_
-5. Store data in a structured way by running _Data Storage.py_
+5. Store data in a structured way by running Data Storage.py, where the data is stored in 1 JSON file with each row containing specific conditions and their CCI values + range of motion (RoM)
 
 **Citation**
-
 If you use or build upon this code, please cite the earlier mentioned and:
 _Zalbouti, N., Zuidgeest, H., Vruggink, B., Overdevest, J. (2026). Developing a sEMG Measurement Setup for Deltoid Co-Contraction in Obstetric Brachial Plexus Injury. TU Delft / LUMC_
 
